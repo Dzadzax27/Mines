@@ -53,17 +53,17 @@ namespace Mine
             if (sender == randomButton || sender == randomButton2 || sender == randomButton3 || sender == randomButton4 || sender == randomButton5
                 || sender == randomButton6)
             {
-                randomButton.BackgroundImage = Image.FromFile("C:\\Users\\Administrator\\Desktop\\minesl.png");
+                randomButton.BackgroundImage = Image.FromFile("\\Mine\\minesl.png");
                 randomButton.BackgroundImageLayout = ImageLayout.Stretch;
-                randomButton2.BackgroundImage = Image.FromFile("C:\\Users\\Administrator\\Desktop\\minesl.png");
+                randomButton2.BackgroundImage = Image.FromFile("\\Mine\\minesl.png");
                 randomButton2.BackgroundImageLayout = ImageLayout.Stretch;
-                randomButton3.BackgroundImage = Image.FromFile("C:\\Users\\Administrator\\Desktop\\minesl.png");
+                randomButton3.BackgroundImage = Image.FromFile("\\Mine\\minesl.png");
                 randomButton3.BackgroundImageLayout = ImageLayout.Stretch;
-                randomButton4.BackgroundImage = Image.FromFile("C:\\Users\\Administrator\\Desktop\\minesl.png");
+                randomButton4.BackgroundImage = Image.FromFile("\\Mine\\minesl.png");
                 randomButton4.BackgroundImageLayout = ImageLayout.Stretch;
-                randomButton5.BackgroundImage = Image.FromFile("C:\\Users\\Administrator\\Desktop\\minesl.png");
+                randomButton5.BackgroundImage = Image.FromFile("\\Mine\\minesl.png");
                 randomButton5.BackgroundImageLayout = ImageLayout.Stretch;
-                randomButton6.BackgroundImage = Image.FromFile("C:\\Users\\Administrator\\Desktop\\minesl.png");
+                randomButton6.BackgroundImage = Image.FromFile("\\Mine\\minesl.png");
                 randomButton6.BackgroundImageLayout = ImageLayout.Stretch;
                 DialogResult box=MessageBox.Show("Igra zavrsena!\r Zelite li igrati ponovo?","Igra je gotova!",MessageBoxButtons.YesNo);
                 if(box==DialogResult.Yes)
